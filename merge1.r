@@ -20,7 +20,7 @@ menu_program <- function() {
     } else if (choice == 2) {
       cat("\n--- Find Row-Wise Palindromes ---\n")
       
-      find_rowwise_palindromes <- function(data_frame, output_file = "/home/ds-da-28/kathrina/pallindrome.csv") {
+      find_rowwise_palindromes <- function(data_frame, output_file = "/home/ds-ds-26/george/pallindrome.csv") {
         is_row_palindrome <- function(row) {
           row_string <- paste(row, collapse = "")
           return(row_string == paste(rev(strsplit(row_string, NULL)[[1]]), collapse = ""))
